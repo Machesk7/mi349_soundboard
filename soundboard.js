@@ -6,7 +6,7 @@ btn.classList.add('btn');
 
 btn.innerText = sound;
 
-btn.addEventListener("click", ()=>{
+btn.addEventListener("click", () => {
     document.getElementById(sound).onplay();
 });
 
