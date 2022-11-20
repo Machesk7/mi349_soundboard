@@ -8,8 +8,8 @@ btn.innerText = sound;
 
 btn.addEventListener("click", ()=>{
     document.getElementById(sound).onplay();
-})
+});
 
-document.getElementById('buttons').appendChild(btn)
+document.getElementById('buttons').appendChild(btn);
 })
 
